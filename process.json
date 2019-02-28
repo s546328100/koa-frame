@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "script": "dist/app.js",
+  "cwd": "./",
+  "exec_mode": "fork",
+  "watch": false,
+  "ignore_watch": ["tmp", "logs", "node_modules"],
+  "env": {
+    "NODE_ENV": "production",
+    "NODE_LOG_DIR": "/tmp",
+    "ENABLE_NODE_LOG": "YES"
+  },
+  "env_dev": {
+    "NODE_ENV": "local",
+    "NODE_LOG_DIR": "/tmp",
+    "ENABLE_NODE_LOG": "YES"
+  },
+  "engines": {
+    "node": ">=7.6"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "test_subscribe",
+    "script": "dist/subscribe.js",
+    "cwd": "./",
+    "exec_mode": "fork",
+    "watch": false,
+    "ignore_watch": ["tmp", "logs", "node_modules"],
+    "env": {
+        "NODE_ENV": "production"
+    },
+    "env_dev": {
+        "NODE_ENV": "local"
+    },
+    "engines": {
+        "node": ">=7.6"
+    }
+}
